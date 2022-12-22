@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/teamwork.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    transition: background 0.5s ease, padding .2s ease;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 0.8s ease;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    color: #fff !important;
+    letter-spacing: 1px;
+}
+
+.btn {
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.features {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.title {
+    color: #0d6efd;
+}
+
+.icon i {
+    font-size: 40px;
+    color: #0d6efd;
+}
